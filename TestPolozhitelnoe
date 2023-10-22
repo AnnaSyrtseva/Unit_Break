@@ -1,0 +1,15 @@
+package by.itacademy.asyrtseva;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class TestPolozhitelnoe {
+
+    @Test
+    public void testCheck(){
+        Polozhitelnoe polozhitelnoe = new Polozhitelnoe();
+        int actual = polozhitelnoe.Home(5);
+        Assertions.assertEquals(17, actual);
+    }
+
+}
